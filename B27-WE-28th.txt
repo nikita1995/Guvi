@@ -1,0 +1,71 @@
+Data types:
+Javascript:Ecmascript=>12th edition
+ES5 and Es6=>
+Ecamscript:2015
+ECamscript:2021
+
+MIcrosoft:Jscript
+HTML =>some elements
+CSS =>Color:
+Javascript=>Life in skeleton
+
+
+client side script& server -side 
+
+
+
+console.log("Hello");
+var num = 10;
+var num2 = 20;
+
+console.log(num + num2);
+
+
+// How u will display the o/p in javascript?
+
+//write alert box with alert() or window.alert()
+// alert("Hello");
+// window.alert("Hello");
+
+//write your output in console
+// console.log("Welcome to browser console");
+
+//writing you output inside your document window
+// document.write("Welcome to browser window");
+
+//First ,we have to select id ,classname or tag name
+document.getElementBy("demo").innerHTML = "new content";
+
+
+
+//What is Variable?
+// "use strict";
+a = 20; //it is not a strict language
+
+function myfun() {
+  var a = 10;
+  //   console.log(a);
+}
+
+console.log(a);
+myfun();
+
+// let and const
+
+
+
+// //What is Variable?
+// let num = 10;
+// let num = 100; //redining and declartion with let is not allowed
+// console.log(num);
+// Identifier 'num' has already been declared
+
+const num = 100;
+num = 120; //120 to num is not allowed
+console.log(num);
+
+
+
+const number = [10, 20, 30, 40, 50];
+number.push(100);
+console.log(number);
